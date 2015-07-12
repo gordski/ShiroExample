@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.apache.shiro:shiro-core:1.2.3',
+            'ch.qos.logback:logback-classic:1.1.3')
+}
